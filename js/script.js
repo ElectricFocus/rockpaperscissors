@@ -8,4 +8,7 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
-
+$("button").click(function(){
+  let message = $("#input").val();
+  $("#userchoice").html(`<p> ${message} </p> `);
+});
